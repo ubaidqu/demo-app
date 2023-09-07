@@ -1,0 +1,160 @@
+.App {
+  display: flex;
+  font-family: "Manrope",sans-serif;
+ 
+}
+
+.sidebar_container {
+    display: flex;
+  background-color: #f4f5f7;
+  height: 100vh;
+  position: sticky;
+  /* display: flex;
+  justify-content: flex-start; */
+  /* align-items: center; */
+  
+}
+.sidebar{
+   justify-content: start;
+   align-items: start;
+   flex-direction: column;
+   background-color: #f4f5f7;
+}
+.menu_icons {
+  display: flex;
+  align-items: center;
+  padding: 10px; /* Add padding to create space */
+  margin-left: -40px;
+  margin-right: 10px;
+  color: black;
+  
+  
+}
+
+
+.star {
+  color: rgb(13, 14, 13); /* Set the color of the star to red */
+  margin-left: 20px;
+  font-size: 1.5rem;
+  font-family: "Manrope",sans-serif;
+  margin-top: 15px;
+}
+
+.admin {
+  color: #1f3bb3; /* Set the color of the admin text to blue */
+  margin-left: 0px; /* Add some space between the icon and text */
+  font-size: 1.5rem;
+  font-family: "Manrope",sans-serif;
+  margin-top: 15px;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope" sans-serif;
+  background-color: #f4f5f7;
+}
+
+.body_container {
+  flex: 1;
+
+  background-color: transparent;
+
+  background-blend-mode: lighten;
+
+ 
+
+  height: 120%;
+  width: 100%;
+  z-index: -1;
+  margin-left:120px ;
+  align-items: flex-end;
+  margin-top: 50px;
+ 
+}
+/* .page_container{
+    background-color: #f4f5f7;
+}
+.mail_container{
+    background-color: #f4f5f7;
+}
+.doc_container{
+    background-color: #f4f5f7;
+} */
+.bullet-list {
+  list-style-type: disc;
+  padding-left: 70px; /* Adjust the padding as needed */
+  padding-right: 0px;
+
+}
+.dash_container{
+  font-size: 14px;
+  font-family: "Manrope",sans-serif;
+
+}
+/* Add this new class to style the submenu items */
+.submenu-item {
+
+
+
+  border-radius: 20px;
+  transition: background-color 1s;
+  animation-delay: 0ms;
+}
+
+.submenu-item:hover {
+  color: #1f3bb3
+
+}
+.date_pick{
+  display: flex;          
+  margin-left: 20px ;
+  height: 30px;  
+  font-size: small;
+  
+ }
+ /* .search_bar{
+  width: 100px
+ } */
+ /* Searchbar.css */
+/* Searchbar.css */
+/* Searchbar.css */
+.dropdown{
+
+  
+    cursor: pointer;
+    /* border-bottom: 1px solid #dee2e6; */
+    
+}
+.profile_container{
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -58px;
+  
+}
+.profile_component_container{
+  display: flex;          
+    flex-direction: column;   
+    align-items: center;
+      
+    
+}
+.dropdown-item{
+  border-bottom: 0.5px solid #eaeaf1;
+  font-family: "Manrope",sans-serif;
+  font-size: small;
+
+}
+.custom-alert {
+  background-color: black;
+  position: relative; /* Ensure relative positioning for the button */
+  z-index: 1;
+}
+.custom-btn-close {
+  position: absolute; /* Position the button absolutely within the alert */
+
+  z-index: 2;
+  color: white; /* Text color of the button */
+  background: transparent; /* Background color of the button  padding: 5px 8px; /* Adjust padding as needed */
+  cursor: pointer; /* Add a pointer cursor to indicate it's clickable */
+}
+

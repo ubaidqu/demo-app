@@ -1,0 +1,20 @@
+.item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+  
+  .icon {
+    margin: 0px; /* Adjust the margin value as needed */
+  }
+  
+  .dashboard {
+    margin: 0px;
+    /* Add any relevant styling for the Dashboard component */
+  }
+  
+  
+  
+  
+  
+  
